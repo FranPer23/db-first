@@ -1,0 +1,12 @@
+auto_usate (
+  id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  marca VARCHAR(255) NOT NULL,
+  modello VARCHAR(255) NOT NULL,
+  anno_produzione INT(11) NOT NULL,
+  chilometraggio INT(11) NOT NULL,
+  colore_carrozzeria VARCHAR(255) NOT NULL,
+  carburante VARCHAR(255) NOT NULL,
+  prezzo DECIMAL(10,2) NOT NULL,
+  descrizione TEXT NOT NULL,
+  data_immatricolazione TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+);
